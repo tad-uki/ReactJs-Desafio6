@@ -1,0 +1,38 @@
+.navBar{
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(156, 13, 25);
+
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.navLogo{
+    font-size: 40px;
+    font-style: italic;
+    background-color: rgb(60, 206, 67);
+    color: black;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.navList{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navList a{
+    margin-right: 20px;
+    margin-left: 20px;
+
+    font-size: 25px;
+    color: rgb(3, 2, 51);
+    background-color: rgb(29, 207, 6);
+    align-self: center;
+    padding: 5px;
+    border-radius: 7px;
+}
+
